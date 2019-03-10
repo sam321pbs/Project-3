@@ -1,0 +1,153 @@
+body {
+	font-family: 'Varela Round', sans-serif;
+	line-height: 1.6;
+  color: #3a3a3a;
+  margin:0;
+  padding:0;
+}
+
+html {
+  margin:0;
+  padding:0;
+}
+
+form {
+  width: 85%;
+  margin: 10px auto;
+}
+
+h1 {
+  margin: 0;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  padding: 1em;
+  size: .7em;
+  background-color: #000;
+}
+
+h2 {
+	color: #000;
+}
+
+option {
+	padding: 120px;
+}
+
+fieldset {
+  border:0 none;
+}
+
+legend {
+  font-size: 1.5em;
+  color: navy;
+}
+
+.subhead-info {
+	color: #D0D0D0;
+	text-align: center;
+	margin: 0 30px 0 30px;
+}
+
+.space {
+	background-color: #000;
+	height: 4px; 
+	margin: 15px;
+}
+
+.thinner-space {
+	background-color: #000;
+	height: 2px; 
+	margin: 15px;
+}
+
+.section-header {
+	text-align: center;
+}
+
+.question {
+	color: #D0D0D0;
+	margin: 15px 0 15px 0;
+}
+
+.label {
+	color: #D0D0D0;
+  padding: 30px 0 30px 0;
+}
+
+input::placeholder {
+  color: rgb(194, 194, 194);
+  font-size: .8em;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="datetime"],
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="tel"],
+input[type="time"],
+input[type="url"],
+textarea,
+select {
+  background: rgba(255,255,255,0.1);
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  height: auto;
+  margin: 15px 5px 15px 0px;
+  outline: 0;
+  padding: 15px;
+  width: 100%;
+  background-color: #e8eeef;
+  color: #8a97a0;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+  margin-bottom: 30px;
+}
+
+input:focus { 
+  border-color: rgb(24, 25, 66);
+  border-width: 2px;
+  border-style: solid
+}
+
+input[name="user_zip_code"] {
+  width: 100px;
+}
+
+button[type="submit"] {
+  background-color: rgb(68, 223, 210);
+  width: 100%;
+  height: 60px;
+  margin: 20px;
+  font-size: 1.5em;
+  color: #fff;
+  border-radius: 8px;
+}
+
+.copyright {
+  display: flex;
+  justify-content: center;
+  color: #d1d1d1;
+  margin: auto;
+}
+
+
+/* ================================= 
+  Media Queries
+==================================== */
+
+@media (min-width: 768px) {
+  form {
+    width: 60%;
+  }
+}
+
+
+@media (min-width: 1024px) {
+  form {
+    width: 60%;
+  }
+}
+
