@@ -22,7 +22,6 @@ h1 {
   text-transform: uppercase;
   color: #fff;
   padding: 1em;
-  size: .7em;
   background-color: #000;
 }
 
@@ -139,8 +138,39 @@ button[type="submit"] {
 ==================================== */
 
 @media (min-width: 768px) {
+
+  br {
+
+  }
+
+  .row {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+
   form {
     width: 60%;
+  }
+
+  input[type="text"],
+  input[type="date"],
+  input[type="datetime"],
+  input[type="email"],
+  input[type="number"],
+  input[type="search"],
+  input[type="tel"],
+  input[type="time"],
+  input[type="url"],
+  textarea,
+  select {
+    width: 70%;
+    max-width: 550px;
+  }
+
+  #addition_topics {
+    width: 100%;
   }
 }
 
